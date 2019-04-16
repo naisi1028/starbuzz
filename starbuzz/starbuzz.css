@@ -9,6 +9,7 @@ body {
   background-color: #675c47;
   margin:           10px 10px 0px 10px;
   height:           108px;
+
 }
 
 #main {
@@ -99,4 +100,37 @@ div#tableRow{
   width:20%;
   padding:15px;
   vertical-align: top;
+}
+
+.headerleft{
+  float:left;
+  background-image: url(images/header.gif);
+  width:400px;
+  height:100px;
+}
+
+.headerright{
+  float:right;
+  background-image: url(images/header.gif);
+  width:400px;
+  height:100px;
+  background-position:-400px,0px;
+}
+
+#award{
+
+  position: absolute;
+  top:15px;
+  left:600px;
+}
+
+#coupon{
+  position:fixed;
+  top:350px;
+  left:-90px;
+}
+
+#coupon a, img{
+  border:none;
+
 }
